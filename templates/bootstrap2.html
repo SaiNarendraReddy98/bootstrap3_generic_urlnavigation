@@ -1,0 +1,99 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+
+    <center>
+        <div class="alert alert-success" role="alert">
+            Welcome back to our new page! <a href="#" class="alert-link">home</a>. Give it a click if you like.
+          </div>
+    </center>
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Well done!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+        <hr>
+        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+      </div>
+
+        <center>
+        <button type="button" class="btn btn-outline-primary">Home</button>
+        <button type="button" class="btn btn-outline-secondary">about us</button>
+        <button type="button" class="btn btn-outline-success">careers</button>
+        <button type="button" class="btn btn-outline-danger">units</button>
+        <button type="button" class="btn btn-outline-warning">query</button>
+        <button type="button" class="btn btn-outline-info">more info</button>
+        <button type="button" class="btn btn-outline-dark">phone no</button>
+
+
+
+        <div class="card bg-dark text-white">
+            <img src="{% static 'images/visakha.jpg' %}" class="card-img" alt="..." height="150px" width="2000px">
+            <div class="card-img-overlay">
+              <h5 class="card-title" style="color: #7de60c;">Visakhapatnam</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+            </div>
+        </div>
+
+
+    </center>
+
+    
+
+
+
+    <div class="card-group">
+        <div class="card">
+          <img src="{% static 'images/vizag.jpeg' %}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Visakhapatnam</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="{% static 'images/bangalore.jpeg' %}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bangalore</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="{% static 'images/coim.jpeg' %}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coimbatore</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+        <button type="button" class="btn btn-primary btn-lg btn-block"><a href="{% url 'bootstrap3' %}" style="color: black;">navigate to next page</a></button>
+    
+
+
+
+
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
